@@ -1,0 +1,54 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "NexamedClinic",
+  "logo": {
+    "light": "/logo/nexamed-light.png",
+    "dark": "/logo/nexamed-dark.png"
+  },
+  "favicon": "/favicon.ico",
+  "colors": {
+    "primary": "#6366f1",
+    "light": "#818cf8",
+    "dark": "#4f46e5",
+    "anchors": {
+      "from": "#6366f1",
+      "to": "#8b5cf6"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Suporte",
+      "url": "mailto:suporte@nexamed.com.br"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Acessar Sistema",
+    "url": "https://app.nexamed.com.br"
+  },
+  "tabs": [],
+  "anchors": [
+    {
+      "name": "Manual do Usuário",
+      "icon": "book-open",
+      "url": "manual"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Introdução",
+      "pages": ["manual/introducao"]
+    },
+    {
+      "group": "Acesso ao Sistema",
+      "pages": [
+        "acesso/login",
+        "acesso/recuperar-senha",
+        "acesso/alterar-senha"
+      ]
+    }
+  ],
+  "footerSocials": {},
+  "feedback": {
+    "thumbsRating": true
+  }
+}
